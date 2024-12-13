@@ -1,0 +1,19 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    scroll-duration: 1.5s; /* Ajusta el tiempo aquí */
+}
+body {
+    height: 100%;
+}
